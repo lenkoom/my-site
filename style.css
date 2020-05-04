@@ -6,8 +6,7 @@ body {
   color: #ffffff;
   background: #ffffff url("img/s1200.jpg") no-repeat 50% 0;
   background-size: cover;
-  background-attachment: fixed;
-
+  
 }
 
 h1 {
@@ -24,51 +23,14 @@ nav {
   color: #888888;
 }
 
-aside {
-  margin: 20px 0;
-  color: #c4c4c4;
+.block1 {
+  padding-bottom: 10px
 }
-
-pre,
-code {
-  font-family: "Courier New", "Courier", monospace;
-  color: #6a2cce;
+.block2 {
+  padding-bottom: 30px
 }
-
-pre {
-  line-height: normal;
-}
-
-blockquote {
-  padding-left: 14px;
-  border-left: 2px solid #6a2cce;
-
-  color: #6a2cce;
-}
-
-cite {
-  color: #222222;
-}
-
-time {
-  color: #6a2cce;
-}
-.a {
-text-shadow: #ffffff 0 0 1px;
-}
-
-.danger-text {
-  color: #ff4400;
-}
-
-.danger-block {
-  padding: 5px 10px;
-  background-color: #ffd0bf;
-}
-
-.no-danger-block {
-  padding: 5px 10px;
-  background-color: #40e0d0;
+.block3 {
+  padding-bottom: 500px
 }
 
 footer {
