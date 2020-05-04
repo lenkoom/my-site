@@ -1,94 +1,76 @@
 body {
-  padding: 0;
-  font-family: "CENTURY GOTHIC", sans-serif;
-  font-size: 17px;
-  line-height: 18px;
+  padding: 0 30px;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: "CENTURY GOTHIC", serif;
   color: #ffffff;
-  background: #ffffff url("img/clyde-backg.png") no-repeat 50% 0;
+  background: #ffffff url("img/s1200.jpg") no-repeat 50% 0;
   background-size: cover;
   background-attachment: fixed;
+
 }
-head {
-  font-family: "CENTURY GOTHIC", sans-serif;
-  text-shadow: #000000 0 0 1px;
-}
+
 h1 {
-  width: 260px;
-  font-family: "CENTURY GOTHIC", serif;
-  font-size: 36px;
-  line-height: 36px;
+  font-size: 32px;
+  line-height: normal;
 }
+
 h2 {
-  padding-bottom: 0px;
+  font-size: 20px;
+  line-height: normal;
 }
-h3 {
-  border-bottom: 1px solid #cccccc;
+
+nav {
+  color: #888888;
 }
-.site-header {
-  margin-bottom: 30px;
-  text-shadow: #000000 0 0 1px;
+
+aside {
+  margin: 20px 0;
+  color: #c4c4c4;
 }
-.skills-item {
-  margin-bottom: 15px;
-  padding-left: 20px;
-  border-left: 10px solid #c4c4c4;
-  color: #777777;
+
+pre,
+code {
+  font-family: "Courier New", "Courier", monospace;
+  color: #6a2cce;
 }
-.cite {
-padding-bottom: 130px;
-text-shadow: #000000 0 0 3px;
+
+pre {
+  line-height: normal;
 }
-.container {
-  width: 480px;
-  margin: 0 auto;
+
+blockquote {
+  padding-left: 14px;
+  border-left: 2px solid #6a2cce;
+
+  color: #6a2cce;
 }
-.site-header img {
-  display: block;
-  margin: 0 auto;
+
+cite {
+  color: #222222;
 }
-.values {
-  margin-bottom: 30px;
-color:#FFFFFF;
-padding-bottom: 60px;
-text-shadow: #000000 0 0 1px;
+
+time {
+  color: #6a2cce;
 }
-.values p {
-  display: inline-block;
-  vertical-align: top;
-  width: 30%;
-  margin: 0 5px;
-  text-align: center;
-  background-repeat: no-repeat;
-  background-position: center top;
-  color: #FFFFFF;
-  text-shadow: #000000 0 0 1px;
+.a {
+text-shadow: #ffffff 0 0 1px;
 }
-.values-food {
-  padding-top: 80px;
-  background-image: url("img/blackcat_animal_5540.ico");
-  transition: background 1s ease;
+
+.danger-text {
+  color: #ff4400;
 }
-.values-food:hover {
-  background-image: url("img/blackcat_animal_5540 2.ico");
+
+.danger-block {
+  padding: 5px 10px;
+  background-color: #ffd0bf;
 }
-.values-toys {
-  padding-top: 80px;
-  background-image: url("img/blackcat_animal_5540.ico");
-  transition: background 1s ease;
+
+.no-danger-block {
+  padding: 5px 10px;
+  background-color: #40e0d0;
 }
-.values-toys:hover {
-  background-image: url("img/blackcat_animal_5540 2.ico");
-}
-.values-power {
-  padding-top: 80px;
-  background-image: url("img/blackcat_animal_5540.ico");
-  transition: background 1s ease;
-}
-.values-power:hover {
-  background-image: url("img/blackcat_animal_5540 2.ico");
-}
-.site-footer {
-  display: flex;
-  justify-content: space-between;
-  color: #999999;
+
+footer {
+  margin-top: 30px;
 }
